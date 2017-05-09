@@ -1,4 +1,4 @@
-# Stats
+# Character Stats
 
 All characters, not classes, have a base set of stats. Each character will have a preferred stat.
 
@@ -49,7 +49,7 @@ INT: 7
 AGI: 10
 ```
 
-Which translates too:
+Which translates to:
 ```
 HP: 140
 HP REGEN: 22

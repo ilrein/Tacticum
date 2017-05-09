@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Classes · GitBook</title>
+        <title>Item · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.2">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="page/page.html" />
+    <link rel="next" href="../classes/" />
     
     
-    <link rel="prev" href="../stats/item-stats.html" />
+    <link rel="prev" href="character-stats.html" />
     
 
     </head>
@@ -148,9 +148,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.3.1" data-path="../stats/character-stats.html">
+        <li class="chapter " data-level="1.3.1" data-path="character-stats.html">
             
-                <a href="../stats/character-stats.html">
+                <a href="character-stats.html">
             
                     
                     Character
@@ -161,9 +161,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3.2" data-path="../stats/item-stats.html">
+        <li class="chapter active" data-level="1.3.2" data-path="item-stats.html">
             
-                <a href="../stats/item-stats.html">
+                <a href="item-stats.html">
             
                     
                     Item
@@ -179,9 +179,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.4" data-path="./">
+        <li class="chapter " data-level="1.4" data-path="../classes/">
             
-                <a href="./">
+                <a href="../classes/">
             
                     
                     Classes
@@ -193,9 +193,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.4.1" data-path="page/page.html">
+        <li class="chapter " data-level="1.4.1" data-path="../classes/page/page.html">
             
-                <a href="page/page.html">
+                <a href="../classes/page/page.html">
             
                     
                     Page
@@ -241,7 +241,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="../.." >Classes</a>
+        <a href="../.." >Item</a>
     </h1>
 </div>
 
@@ -256,9 +256,49 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="classes">Classes</h1>
-<p><img src="../../../assets/jobs.jpg" alt=""></p>
-<p>An intricate class system always invokes an element of strategy. The ideal challenge is to be able to form combinations of classes, allowing for a high degree of flexibility. Even better, is if classes themselves can focus on particular skill trees. A combination of fused classes with focused skill trees adds for a high degree of customizability and unpredictable battles.</p>
+                                <h1 id="item-stats">Item Stats</h1>
+<p>Items, consisting of armor, weapons, and other trinkets, compose a character&apos;s offensive and  defensive rating.</p>
+<p>Example of low level items:</p>
+<h3 id="simple-dagger">Simple Dagger</h3>
+<ul>
+<li>Classification: Dagger</li>
+<li>Type: Piercing</li>
+<li>DMG: 8-10</li>
+<li>Affixes: none</li>
+</ul>
+<h3 id="leather-tunic">Leather Tunic</h3>
+<ul>
+<li>Classification: Chest Armor</li>
+<li>Type: Light</li>
+<li>DEF: 6</li>
+<li>Affixes: none</li>
+</ul>
+<p>Daggers deal <b>Piercing</b> DMG, which deals bonus DMG to <b>Light</b> armor. A defense rating of 6 will reduce the dagger DMG output from 8-10 to 2-4, which is then multiplied by the attack modifer. Weapons that have an advantage against certain armor types will deal an additional 25% DMG, meaning the dagger output will hit from 2.25 to 5 (rounded up). This damage is further multiplied by the characters primary stat rating. EG, a Page with 10 agility will deal an additional 1.5 DMG, for a range of 3.75 to 6.5.</p>
+<h3 id="table-of-types">Table of Types</h3>
+<ol>
+<li>Weapons<ul>
+<li>One handed<ul>
+<li>Dagger<ul>
+<li>+25% to Light</li>
+<li>-5% to Medium</li>
+<li>-25% to Heavy</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Armor<ul>
+<li>Light<ul>
+<li>+25% from Piercing</li>
+<li>-25% from Blunt</li>
+</ul>
+</li>
+<li>Medium</li>
+<li>Heavy</li>
+</ul>
+</li>
+</ol>
 
                                 
                                 </section>
@@ -286,12 +326,12 @@
 
             
                 
-                <a href="../stats/item-stats.html" class="navigation navigation-prev " aria-label="Previous page: Item">
+                <a href="character-stats.html" class="navigation navigation-prev " aria-label="Previous page: Character">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="page/page.html" class="navigation navigation-next " aria-label="Next page: Page">
+                <a href="../classes/" class="navigation navigation-next " aria-label="Next page: Classes">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -302,7 +342,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Classes","level":"1.4","depth":1,"next":{"title":"Page","level":"1.4.1","depth":2,"path":"chapters/classes/page/page.md","ref":"chapters/classes/page/page.md","articles":[]},"previous":{"title":"Item","level":"1.3.2","depth":2,"path":"chapters/stats/item-stats.md","ref":"chapters/stats/item-stats.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapters/classes/index.md","mtime":"2017-05-09T19:33:58.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-05-09T19:26:04.544Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Item","level":"1.3.2","depth":2,"next":{"title":"Classes","level":"1.4","depth":1,"path":"chapters/classes/index.md","ref":"chapters/classes/index.md","articles":[{"title":"Page","level":"1.4.1","depth":2,"path":"chapters/classes/page/page.md","ref":"chapters/classes/page/page.md","articles":[]}]},"previous":{"title":"Character","level":"1.3.1","depth":2,"path":"chapters/stats/character-stats.md","ref":"chapters/stats/character-stats.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapters/stats/item-stats.md","mtime":"2017-05-09T20:47:29.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-05-09T19:26:04.544Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
