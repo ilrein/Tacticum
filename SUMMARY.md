@@ -1,4 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
-
+* [World Design](chapters/world-design/index.md)
+  - [Ship](chapters/world-design/ship/index.md)
+* [Classes](chapters/classes/index.md)
+  - [Page](chapters/classes/page/page.md)
